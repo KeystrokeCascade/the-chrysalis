@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId" prefix="calibre: https://calibre-ebook.com">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title id="id">Fallout Equestria: The Chrysalis</dc:title>
+    <dc:creator id="id-1">Phoenix_Dragon</dc:creator>
+    <dc:identifier>calibre:51</dc:identifier>
+    <dc:identifier>uuid:25e972a2-02c9-4d01-a658-707a956fedd9</dc:identifier>
+    <dc:identifier id="BookId">urn:uuid:9a12b097-f5e0-4491-8bd7-74f97c52f122</dc:identifier>
+    <dc:source>http://book.fallout-equestria.com/</dc:source>
+    <dc:language>en</dc:language>
+    <dc:date>2019-04-06T00:00:00+00:00</dc:date>
+    <dc:description>&lt;div&gt;&lt;p class="description"&gt;Equestria was a land of love, once. Even with the growing paranoia of war, that love never really disappeared. To a changeling, it could be a dangerous place, but there were no better feeding grounds in the world.&lt;/p&gt;&lt;p class="description"&gt;Two centuries later, a changeling wakes to find herself alone. The world she remembers is gone, scoured away under the fury of balefire. In its place is a barren wasteland, where ponies fight to cling to life; where love has been trampled underhoof in the name of survival.&lt;/p&gt;&lt;p class="description"&gt;And this lone changeling must head out into that loveless land, seeking a hive that may no longer exist.&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:publisher>KeystrokeCascade</dc:publisher>
+    <dc:subject>Adventure</dc:subject>
+    <dc:subject>Crossover</dc:subject>
+    <dc:subject>Dark</dc:subject>
+    <dc:subject>Fallout: Equestria</dc:subject>
+    <dc:subject>FanFiction</dc:subject>
+    <dc:subject>My Little Pony: Friendship is Magic</dc:subject>
+    <dc:subject>Fiction</dc:subject>
+    <meta refines="#id" property="title-type">main</meta>
+    <meta refines="#id" property="file-as">Fallout Equestria: The Chrysalis</meta>
+    <meta property="dcterms:modified">2019-04-22T09:41:18Z</meta>
+    <meta name="Sigil version" content="0.9.8"/>
+    <meta property="role" refines="#id-1" scheme="marc:relators">aut</meta>
+    <meta property="file-as" refines="#id-1">Phoenix_Dragon</meta>
+    <meta property="calibre:author_link_map">{"Phoenix_Dragon": ""}</meta>
+  </metadata>
+  <manifest>
+    <item href="Text/cover.xhtml" id="cover_page" media-type="application/xhtml+xml" properties="svg"/>
+    <item href="Text/title_page.xhtml" id="title_page" media-type="application/xhtml+xml"/>
+    <item href="Text/copyright_page.xhtml" id="copyright_page.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/toc.xhtml" id="toc_page" media-type="application/xhtml+xml" properties="nav"/>
+    <item href="Text/ch01.xhtml" id="ch01.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch02.xhtml" id="ch02.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch03.xhtml" id="ch03.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch04.xhtml" id="ch04.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch05.xhtml" id="ch05.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch06.xhtml" id="ch06.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch07.xhtml" id="ch07.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch08.xhtml" id="ch08.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch09.xhtml" id="ch09.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch10.xhtml" id="ch10.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch11.xhtml" id="ch11.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch12.xhtml" id="ch12.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch13.xhtml" id="ch13.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch14.xhtml" id="ch14.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch15.xhtml" id="ch15.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch16.xhtml" id="ch16.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch17.xhtml" id="ch17.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch18.xhtml" id="ch18.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch19.xhtml" id="ch19.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch20.xhtml" id="ch20.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch21.xhtml" id="ch21.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch22.xhtml" id="ch22.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch23.xhtml" id="ch23.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch24.xhtml" id="ch24.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch25.xhtml" id="ch25.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch26.xhtml" id="ch26.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch27.xhtml" id="ch27.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch28.xhtml" id="ch28.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch29.xhtml" id="ch29.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch30.xhtml" id="ch30.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch31.xhtml" id="ch31.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch32.xhtml" id="ch32.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch33.xhtml" id="ch33.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch34.xhtml" id="ch34.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch35.xhtml" id="ch35.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch36.xhtml" id="ch36.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch37.xhtml" id="ch37.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch38.xhtml" id="ch38.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch39.xhtml" id="ch39.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch40.xhtml" id="ch40.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch41.xhtml" id="ch41.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch42.xhtml" id="ch42.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch43.xhtml" id="ch43.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch44.xhtml" id="ch44.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch45.xhtml" id="ch45.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch46.xhtml" id="ch46.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch47.xhtml" id="ch47.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch48.xhtml" id="ch48.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/ch49.xhtml" id="ch49.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="Text/epilogue.xhtml" id="epilogue.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="Styles/fonts.css" id="fonts.css" media-type="text/css"/>
+    <item href="Styles/stylesheet.css" id="stylesheet.css" media-type="text/css"/>
+    <item href="Images/cover.png" id="cover" media-type="image/png" properties="cover-image"/>
+    <item href="Images/the-chrysalis-logo.png" id="id1" media-type="image/png"/>
+    <item href="Fonts/IBMPlexMono-Bold.ttf" id="id4" media-type="application/x-font-truetype"/>
+    <item href="Fonts/IBMPlexMono-Italic.ttf" id="id9" media-type="application/x-font-truetype"/>
+    <item href="Fonts/IBMPlexMono-Regular.ttf" id="id8" media-type="application/x-font-truetype"/>
+    <item href="Fonts/IBMPlexSans-Regular.ttf" id="id3" media-type="application/x-font-truetype"/>
+    <item href="Fonts/LiterataBook-Bold.otf" id="id6" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/LiterataBook-Medium.otf" id="id10" media-type="application/vnd.ms-opentype"/>
+    <item href="Fonts/LiterataBook-MediumItalic.otf" id="id11" media-type="application/vnd.ms-opentype"/>
+    <item href="Misc/typography.js" id="typography.js" media-type="application/javascript"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover_page"/>
+    <itemref idref="title_page"/>
+    <itemref idref="copyright_page.xhtml"/>
+    <itemref idref="toc_page"/>
+    <itemref idref="ch01.xhtml"/>
+    <itemref idref="ch02.xhtml"/>
+    <itemref idref="ch03.xhtml"/>
+    <itemref idref="ch04.xhtml"/>
+    <itemref idref="ch05.xhtml"/>
+    <itemref idref="ch06.xhtml"/>
+    <itemref idref="ch07.xhtml"/>
+    <itemref idref="ch08.xhtml"/>
+    <itemref idref="ch09.xhtml"/>
+    <itemref idref="ch10.xhtml"/>
+    <itemref idref="ch11.xhtml"/>
+    <itemref idref="ch12.xhtml"/>
+    <itemref idref="ch13.xhtml"/>
+    <itemref idref="ch14.xhtml"/>
+    <itemref idref="ch15.xhtml"/>
+    <itemref idref="ch16.xhtml"/>
+    <itemref idref="ch17.xhtml"/>
+    <itemref idref="ch18.xhtml"/>
+    <itemref idref="ch19.xhtml"/>
+    <itemref idref="ch20.xhtml"/>
+    <itemref idref="ch21.xhtml"/>
+    <itemref idref="ch22.xhtml"/>
+    <itemref idref="ch23.xhtml"/>
+    <itemref idref="ch24.xhtml"/>
+    <itemref idref="ch25.xhtml"/>
+    <itemref idref="ch26.xhtml"/>
+    <itemref idref="ch27.xhtml"/>
+    <itemref idref="ch28.xhtml"/>
+    <itemref idref="ch29.xhtml"/>
+    <itemref idref="ch30.xhtml"/>
+    <itemref idref="ch31.xhtml"/>
+    <itemref idref="ch32.xhtml"/>
+    <itemref idref="ch33.xhtml"/>
+    <itemref idref="ch34.xhtml"/>
+    <itemref idref="ch35.xhtml"/>
+    <itemref idref="ch36.xhtml"/>
+    <itemref idref="ch37.xhtml"/>
+    <itemref idref="ch38.xhtml"/>
+    <itemref idref="ch39.xhtml"/>
+    <itemref idref="ch40.xhtml"/>
+    <itemref idref="ch41.xhtml"/>
+    <itemref idref="ch42.xhtml"/>
+    <itemref idref="ch43.xhtml"/>
+    <itemref idref="ch44.xhtml"/>
+    <itemref idref="ch45.xhtml"/>
+    <itemref idref="ch46.xhtml"/>
+    <itemref idref="ch47.xhtml"/>
+    <itemref idref="ch48.xhtml"/>
+    <itemref idref="ch49.xhtml"/>
+    <itemref idref="epilogue.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="title-page" title="Title Page" href="Text/title_page.xhtml"/>
+    <reference type="toc" title="Contents" href="Text/toc.xhtml"/>
+    <reference type="copyright-page" title="Copyright" href="Text/copyright_page.xhtml"/>
+    <reference type="text" title="First Chapter" href="Text/ch01.xhtml"/>
+    <reference type="cover" title="Cover" href="Text/cover.xhtml"/>
+  </guide>
+</package>

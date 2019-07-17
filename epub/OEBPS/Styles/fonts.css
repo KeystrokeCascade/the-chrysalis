@@ -1,0 +1,42 @@
+/* LITERATA */
+@font-face {
+  font-family: "Literata";
+  font-weight: normal;
+  font-style: normal;
+  src: url(../Fonts/LiterataBook-Medium.otf);
+  }
+@font-face {
+  font-family: "Literata";
+  font-weight: bold;
+  font-style: normal;
+  src: url(../Fonts/LiterataBook-Bold.otf);
+  }
+@font-face {
+  font-family: "Literata";
+  font-style: italic;
+  src: url(../Fonts/LiterataBook-MediumItalic.otf);
+  }
+/* IBM PLEX MONO */
+@font-face {
+  src: url(../Fonts/IBMPlexMono-Regular.ttf);
+  font-family: "IBM Plex Mono";
+  font-weight: normal;
+  font-style: normal;
+  }
+@font-face {
+  src: url(../Fonts/IBMPlexMono-Bold.ttf);
+  font-family: "IBM Plex Mono";
+  font-weight: bold;
+  font-style: normal;
+  }
+@font-face {
+  src: url(../Fonts/IBMPlexMono-Italic.ttf);
+  font-family: "IBM Plex Mono";
+  font-weight: normal;
+  font-style: italic;
+  }
+/* WHISPER */
+@font-face {
+  src: url(../Fonts/IBMPlexSans-Regular.ttf);
+  font-family: "IBM Plex Sans";
+  }

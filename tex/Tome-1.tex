@@ -1,0 +1,291 @@
+% !TeX program = LuaLaTeX
+% !TeX encoding = UTF-8
+\documentclass[draft]{novel}
+
+%Packages
+\usepackage[american]{selnolig}
+\usepackage[draft=false,parindent,lastparline,nosingleletter,homeoarchy,rivers]{impnattypo}
+\usepackage{fmtcount}
+\usepackage{ifthen}
+\usepackage{fancyvrb}
+
+%Error filtering
+\raggedbottom
+
+%Size											%This shit here
+\SetTrimSize{148mm}{210mm}
+% top, outside, bottom, inside
+%\SetMargins{7mm}{16mm}{16.9mm}{20.5mm}
+%\SetLinesPerPage{35}
+%\SetMargins{23.3mm}{32.9mm}{46.7mm}{16.4mm}
+%\SetLinesPerPage{30}
+\SetMargins{14mm}{18mm}{20mm}{25mm}
+\SetLinesPerPage{35}
+
+%Metadata
+\SetTitle{The Chrysalis}
+\SetAuthor{Phoenix\_Dragon}
+\SetPDFX[FOGRA39]{X-1a:2001}
+
+%Microtype
+\tolerance=400
+\microtypesetup{
+	config=my-microtype,
+	final,
+	babel=true,
+	activate={true, nocompatibility},
+	tracking=true,
+	protrusion=true,
+	factor=1100
+}
+
+%Fonts
+\SetParentFont[
+	Numbers=Lining,
+	Extension=.ttf,
+	ItalicFont=*-Italic,
+	BoldFont=*-Bold,
+	SmallCapsFont=*-SC
+]{EBGaramond}
+\SetMonoFont[
+	Scale=0.8,
+	Extension=.ttf,
+	ItalicFont=*-Italic,
+	BoldFont=*-SemiBold
+]{IBMPlexMono}
+\newfontfamily\symbolfont{Code2000.ttf}
+\SetFontSize{11.4pt}
+
+%Chapter
+\SetChapterFont[Scale=1.8]{IBMPlexMono}
+\SetSubchFont{IBMPlexMono}
+\SetChapterStartStyle{empty}
+\SetChapterStartHeight{4}
+
+%Header
+\SetHeadFont[Scale=0.88,Letters=SmallCaps]{EBGaramond}
+\SetHeadFootStyle{1}
+\SetHeadJump{1.5}
+
+%Macros
+%Chapter start
+\newcommand{\chapterstart}[2][]{
+	\cleartorecto
+	\SetVersoHeadText{#2}
+	\begin{ChapterStart}
+	\ifthenelse{\equal{#1}{}}{}{
+		\ChapterSubtitle{Chapter \Numberstringnum{#1}}
+		\label{ch:#1}
+	}
+	\ChapterTitle{#2}
+	\end{ChapterStart}
+}
+
+%Scene break
+\newcommand{\br}{
+	\vspace*{0.5\baselineskip}
+	\nopagebreak
+	\center
+	{\symbolfont\rule[0.3\nbs]{3em}{0.1pt}\hspace{1em}☢\hspace{1em}\rule[0.3\nbs]{3em}{0.1pt}}
+	\nopagebreak
+	\vspace*{0.5\baselineskip}
+	\par
+	\noindent
+}
+
+%Terminal formatting
+\newcommand{\terminal}[2][]{
+	\rule{\textwidth-\parindent}{0.1pt}\par
+	{\leftskip=2\parindent\relax \rightskip=0pt plus 1fill\relax
+	\setlength{\parindent}{0pt}
+	\ifthenelse{\equal{#1}{doc}}{
+		\setlength{\parskip}{\baselineskip}
+		\vspace{-\baselineskip}
+	}{}
+	\ttfamily #2\par}
+	\rule[0.6\baselineskip]{\textwidth-\parindent}{0.1pt}\par
+}
+
+%Switches to DejaVu Sans Mono for drawing characters
+\newfontfamily\DejaVuMono{Dejavu Sans Mono}
+\newcommand{\drawfont}[1]{%
+	{\DejaVuMono%
+	#1}%
+}
+
+%This is where the fun begins
+\begin{document}
+\frontmatter
+
+%Blank page
+\thispagestyle{empty}
+\null
+\clearpage
+
+%Title page
+\cleartorecto
+\thispagestyle{empty}
+\begin{center}
+\def\embolden#1{%
+	\pdfextension literal direct {2 Tr 1.2 w}%
+	#1%
+	\pdfextension literal direct {0 Tr 0 w}%
+}
+\null\vspace{2\baselineskip}
+\begin{parascale}[0.8]
+\setmonofont{IBMPlexMono}
+\begin{BVerbatim}[baseline=t,commandchars=\&\{\}]
+&drawfont{┏━━━━━━━━━━━━━━━}FALLOUT EQUESTRIA&drawfont{&kern0.035em━━━━━━━━━━━━━━━┓}
+&drawfont{┃&embolden{                ________                       }┃}
+&drawfont{┃&embolden{               /_  __/ /_  ___                 }┃}
+&drawfont{┃&embolden{                / / / __ \/ _ \                }┃}
+&drawfont{┃&embolden{               / / / / / /  __/                }┃}
+&drawfont{┃&embolden{    ________  /_/ /_/ /_/\___/        ___      }┃}
+&drawfont{┃&embolden{   / ____/ /_  _______  ___________ _/ (_)____ }┃}
+&drawfont{┃&embolden{  / /   / __ \/ ___/ / / / ___/ __ `/ / / ___/ }┃}
+&drawfont{┃&embolden{ / /___/ / / / /  / /_/ (__  ) /_/ / / (__  )  }┃}
+&drawfont{┃&embolden{ \____/_/ /_/_/   \__, /____/\__,_/_/_/____/   }┃}
+&drawfont{┃&embolden{                 /____/                        }┃}
+&drawfont{┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━&kern0.01em}PHOENIX_DRAGON&drawfont{&kern0.02em━━━━━┛}
+\end{BVerbatim}
+\end{parascale}
+\vspace{0.091\nbs}
+\vspace{12\baselineskip}
+\begin{BVerbatim}[baseline=t]
+************** PIP-OS(R) V7.1.0.8 **************
+
+COPYRIGHT ROBRONCO(R)
+LOADER V1.1
+EXEC VERSION 41.10
+64K RAM SYSTEM
+38911 BYTES FREE
+HOLOTAPE FOUND
+LOAD ROM(1): THE CHRYSALIS
+READY.
+\end{BVerbatim}
+\end{center}
+
+%Copyright page
+\clearpage
+\thispagestyle{empty}
+\null\vspace{2\baselineskip}
+\begin{adjustwidth}{4em}{4em}
+\begin{center}
+\begin{parascale}[0.9]
+\noindent
+This is a work of fiction. Names, places, and incidents either are the product of the author’s imagination or are used fictitiously. Any resemblance to actual humans or ponies, living or dead, events, or locales is entirely coincidental.\\
+\vspace{\baselineskip}
+\noindent
+Text and original characters © Phoenix\_Dragon\\
+Cover artwork “Something” © Anon\\
+“Fallout Equestria” © Kkat\\
+The Fallout franchise © Bethesda Softworks, LLC\\
+“My Little Pony: Friendship is Magic” © Hasbro, Inc.\\
+\vspace{\baselineskip}
+\noindent
+This work references characters and locations that are copyright and trademarks of Hasbro, Inc. No claim is made on Hasbro’s copyright or trademarks.\\
+\vspace{11\baselineskip}
+\noindent
+Printed in God Knows Where\\
+May 2019\\
+First Edition\\
+\vspace{\baselineskip}
+\noindent
+\textit{Produced by Keystroke Cascade}
+\end{parascale}
+\end{center}
+\end{adjustwidth}
+
+%Table of Contents
+\cleartorecto
+\thispagestyle{empty}
+\null\vspace{2\baselineskip}
+\begin{toc}[0.5]{3em}
+{\centering\charscale[1.5]{Contents}\par}
+\null\null
+Chapter \tocitem*[1]{\textit{Ash and Dust}}{\pageref{ch:1}}
+Chapter \tocitem*[2]{\textit{Ways of the Wasteland}}{\pageref{ch:2}}
+Chapter \tocitem*[3]{\textit{Downpour}}{\pageref{ch:3}}
+Chapter \tocitem*[4]{\textit{Rust}}{\pageref{ch:4}}
+Chapter \tocitem*[5]{\textit{Friendly Faces}}{\pageref{ch:5}}
+Chapter \tocitem*[6]{\textit{Carrion}}{\pageref{ch:6}}
+Chapter \tocitem*[7]{\textit{A Job Well Done}}{\pageref{ch:7}}
+Chapter \tocitem*[8]{\textit{The Next Big Score}}{\pageref{ch:8}}
+Chapter \tocitem*[9]{\textit{Paradise}}{\pageref{ch:9}}
+Chapter \tocitem*[10]{\textit{How to Talk to Ponies}}{\pageref{ch:10}}
+Chapter \tocitem*[11]{\textit{Mareford}}{\pageref{ch:11}}
+Chapter \tocitem*[12]{\textit{Covert Methods}}{\pageref{ch:12}}
+Chapter \tocitem*[13]{\textit{Revealed}}{\pageref{ch:13}}
+Chapter \tocitem*[14]{\textit{Past and Future}}{\pageref{ch:14}}
+Chapter \tocitem*[15]{\textit{The Pale}}{\pageref{ch:15}}
+Chapter \tocitem*[16]{\textit{Homecoming}}{\pageref{ch:16}}
+Chapter \tocitem*[17]{\textit{Goodbye}}{\pageref{ch:17}}
+\end{toc}
+
+%Mainmatter
+\mainmatter
+
+\chapterstart[1]{Ash and Dust}
+\input{./chapters/ch01}
+
+\chapterstart[2]{Ways of the Wasteland}
+\input{./chapters/ch02}
+
+\chapterstart[3]{Downpour}
+\input{./chapters/ch03}
+
+\chapterstart[4]{Rust}
+\input{./chapters/ch04}
+
+\chapterstart[5]{Friendly Faces}
+\input{./chapters/ch05}
+
+\chapterstart[6]{Carrion}
+\input{./chapters/ch06}
+
+\chapterstart[7]{A Job Well Done}
+\input{./chapters/ch07}
+
+\chapterstart[8]{The Next Big Score}
+\input{./chapters/ch08}
+
+\chapterstart[9]{Paradise}
+\input{./chapters/ch09}
+
+\chapterstart[10]{How to Talk to Ponies}
+\input{./chapters/ch10}
+
+\chapterstart[11]{Mareford}
+\input{./chapters/ch11}
+
+\chapterstart[12]{Covert Methods}
+\input{./chapters/ch12}
+
+\chapterstart[13]{Revealed}
+\input{./chapters/ch13}
+
+\chapterstart[14]{Past and Future}
+\input{./chapters/ch14}
+
+\chapterstart[15]{The Pale}
+\input{./chapters/ch15}
+
+\chapterstart[16]{Homecoming}
+\input{./chapters/ch16}
+
+\chapterstart[17]{Goodbye}
+\input{./chapters/ch17}
+
+%End
+\vspace{4\baselineskip}
+\begin{center}
+\begin{BVerbatim}[baseline=t,commandchars=\\\{\}]
+\textbf{------------------------------------------------------}
+\end{BVerbatim}
+\vspace{2\baselineskip}
+\begin{BVerbatim}[baseline=t,commandchars=\\\{\}]
+ROM(1) LOADED
+INSERT HOLOTAPE 2 OF 3 TO CONTINUE
+\end{BVerbatim}
+\end{center}
+\end{document}

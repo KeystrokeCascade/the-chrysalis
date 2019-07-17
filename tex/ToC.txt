@@ -1,0 +1,61 @@
+%Table of Contents
+\cleartorecto
+\thispagestyle{empty}
+\begin{toc}[0.25]{3em}
+{\centering\charscale[1.5]{Contents}\par}
+\null\null
+Chapter \tocitem*[1]{\textit{Ash and Dust}}{\pageref{ch:1}}
+Chapter \tocitem*[2]{\textit{Ways of the Wasteland}}{\pageref{ch:2}}
+Chapter \tocitem*[3]{\textit{Downpour}}{\pageref{ch:3}}
+Chapter \tocitem*[4]{\textit{Rust}}{\pageref{ch:4}}
+Chapter \tocitem*[5]{\textit{Friendly Faces}}{\pageref{ch:5}}
+Chapter \tocitem*[6]{\textit{Carrion}}{\pageref{ch:6}}
+Chapter \tocitem*[7]{\textit{A Job Well Done}}{\pageref{ch:7}}
+Chapter \tocitem*[8]{\textit{The Next Big Score}}{\pageref{ch:8}}
+Chapter \tocitem*[9]{\textit{Paradise}}{\pageref{ch:9}}
+Chapter \tocitem*[10]{\textit{How to Talk to Ponies}}{\pageref{ch:10}}
+Chapter \tocitem*[11]{\textit{Mareford}}{\pageref{ch:11}}
+Chapter \tocitem*[12]{\textit{Covert Methods}}{\pageref{ch:12}}
+Chapter \tocitem*[13]{\textit{Revealed}}{\pageref{ch:13}}
+Chapter \tocitem*[14]{\textit{Past and Future}}{\pageref{ch:14}}
+Chapter \tocitem*[15]{\textit{The Pale}}{\pageref{ch:15}}
+Chapter \tocitem*[16]{\textit{Homecoming}}{\pageref{ch:16}}
+Chapter \tocitem*[17]{\textit{Goodbye}}{\pageref{ch:17}}
+Chapter \tocitem*[18]{\textit{Unloading}}{\pageref{ch:18}}
+Chapter \tocitem*[19]{\textit{Just Relax}}{\pageref{ch:19}}
+Chapter \tocitem*[20]{\textit{Unarmored}}{\pageref{ch:20}}
+Chapter \tocitem*[21]{\textit{Shadows of the Past}}{\pageref{ch:21}}
+Chapter \tocitem*[22]{\textit{Sanguine}}{\pageref{ch:22}}
+Chapter \tocitem*[23]{\textit{Rage and Retribution}}{\pageref{ch:23}}
+Chapter \tocitem*[24]{\textit{Picking up the Pieces}}{\pageref{ch:24}}
+Chapter \tocitem*[25]{\textit{Serenity}}{\pageref{ch:25}}
+\clearpage
+\thispagestyle{empty}
+{\centering\charscale[1.5]{}\par}
+\null\null
+Chapter \tocitem*[26]{\textit{One Way Out}}{\pageref{ch:26}}
+Chapter \tocitem*[27]{\textit{The Brief Mercenary Life of Lemon Tart}}{\pageref{ch:27}}
+Chapter \tocitem*[28]{\textit{On the Road}}{\pageref{ch:28}}
+Chapter \tocitem*[29]{\textit{The Sunken City}}{\pageref{ch:29}}
+Chapter \tocitem*[30]{\textit{Exodus}}{\pageref{ch:30}}
+Chapter \tocitem*[31]{\textit{Searching}}{\pageref{ch:31}}
+Chapter \tocitem*[32]{\textit{Echo}}{\pageref{ch:32}}
+Chapter \tocitem*[33]{\textit{The First Blow}}{\pageref{ch:33}}
+Chapter \tocitem*[34]{\textit{Family}}{\pageref{ch:34}}
+Chapter \tocitem*[35]{\textit{Prepared for the Future}}{\pageref{ch:35}}
+Chapter \tocitem*[36]{\textit{Trotsen}}{\pageref{ch:36}}
+Chapter \tocitem*[37]{\textit{Casualties}}{\pageref{ch:37}}
+Chapter \tocitem*[38]{\textit{Damage}}{\pageref{ch:38}}
+Chapter \tocitem*[39]{\textit{Race to Armageddon}}{\pageref{ch:39}}
+Chapter \tocitem*[40]{\textit{Analysis}}{\pageref{ch:40}}
+Chapter \tocitem*[41]{\textit{The Gauntlet}}{\pageref{ch:41}}
+Chapter \tocitem*[42]{\textit{A Thousand Lies}}{\pageref{ch:42}}
+Chapter \tocitem*[43]{\textit{Close Quarters}}{\pageref{ch:43}}
+Chapter \tocitem*[44]{\textit{Push}}{\pageref{ch:44}}
+Chapter \tocitem*[45]{\textit{The Rot}}{\pageref{ch:45}}
+Chapter \tocitem*[46]{\textit{From the Shadows}}{\pageref{ch:46}}
+Chapter \tocitem*[47]{\textit{In from the Cold}}{\pageref{ch:47}}
+Chapter \tocitem*[48]{\textit{The Infiltrator Queen}}{\pageref{ch:48}}
+Chapter \tocitem*[49]{\textit{Endgame}}{\pageref{ch:49}}
+\tocitem*{\textit{Epilogue}}{\pageref{ch:epilogue}}
+\end{toc}

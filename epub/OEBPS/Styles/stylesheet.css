@@ -1,0 +1,132 @@
+@import "fonts.css";
+@page {
+  margin-top: 8pt;
+  margin-bottom: 8pt;
+}
+body {
+  text-align: justify;
+  font-family: "Literata";
+}
+/* Normal text */
+p {
+  position: relative;
+  text-indent: 1em;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.2;
+}
+.noindent {
+  text-indent: 0;
+}
+/* Terminal */
+.terminal {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: IBM Plex Mono, monospace;
+  line-height: 1.4;
+}
+.terminal.center {
+  line-height: 2;
+  text-align: center;
+}
+/* Chapter title */
+h3 {
+  font-size: 1.35em;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0.7em;
+  margin-bottom: 0.6em;
+}
+/* Linebreak */
+.break {
+  border: 0;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  text-align: center;
+  -epub-break-before: avoid;
+  page-break-before: avoid;
+  break-before: avoid;
+}
+/* Typography */
+.scripted .hanging-start {
+  /* position: absolute; is defined in typography.js to avoid validation warnings */
+  right: 100%;
+}
+/* Title page */
+#copyrightpage p {
+  text-indent: 0;
+  text-align: center;
+  margin: 1em 1em;
+}
+.titleart {
+  margin: 0 2.5em;
+}
+:root[__ibooks_internal_theme*="Gray"] .titleart img, :root[__ibooks_internal_theme*="Night"] .titleart img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+:root[__ibooks_internal_theme*="Night"] .titleart img {
+  opacity: 0.745;
+}
+.titleart img {
+  /* Calibre fix */
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.titleauthor {
+  font-family: "IBM Plex Sans";
+  font-size: 1.3em;
+  text-align: center;
+}
+.titledescription {
+  margin: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  page-break-after: always;
+}
+.titledescription .whisper {
+  text-indent: 1em;
+  font-family: "IBM Plex Sans";
+  font-size: 1em;
+  line-height: 1.4;
+}
+.titledescription .whisper:first-child {
+  text-indent: 0;
+}
+/* Table of contents */
+#toc {
+  font-family: "Literata";
+}
+#toc h4 {
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0.3em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+#toc ol {
+  padding: 0;
+  margin: 0;
+  margin-left: 1em;
+  list-style-type: none;
+}
+#toc ol li {
+  margin: 0;
+  margin-top: 0.1em;
+  text-align: left;
+}
+#toc ol li a {
+  margin-left: 1em;
+  text-indent: 1em;
+}
+#toc ol li a:link {
+  color: black
+}
+#toc ol li[hidden] {
+  display: none;
+}

@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta content="urn:uuid:9a12b097-f5e0-4491-8bd7-74f97c52f122" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (3.32.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Fallout Equestria: The Chrysalis</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Copyright</text>
+      </navLabel>
+      <content src="Text/copyright_page.xhtml"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3">
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src="Text/toc.xhtml"/>
+    </navPoint>
+    <navPoint id="num_4" playOrder="4">
+      <navLabel>
+        <text>Chapter 1: Ash and Dust</text>
+      </navLabel>
+      <content src="Text/ch01.xhtml"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5">
+      <navLabel>
+        <text>Chapter 2: Ways of the Wasteland</text>
+      </navLabel>
+      <content src="Text/ch02.xhtml"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5">
+      <navLabel>
+        <text>Chapter 3: Downpour</text>
+      </navLabel>
+      <content src="Text/ch03.xhtml"/>
+    </navPoint>
+    <navPoint id="num_6" playOrder="6">
+      <navLabel>
+        <text>Chapter 4: Rust</text>
+      </navLabel>
+      <content src="Text/ch04.xhtml"/>
+    </navPoint>
+    <navPoint id="num_7" playOrder="7">
+      <navLabel>
+        <text>Chapter 5: Friendly Faces</text>
+      </navLabel>
+      <content src="Text/ch05.xhtml"/>
+    </navPoint>
+    <navPoint id="num_8" playOrder="8">
+      <navLabel>
+        <text>Chapter 6: Carrion</text>
+      </navLabel>
+      <content src="Text/ch06.xhtml"/>
+    </navPoint>
+    <navPoint id="num_9" playOrder="9">
+      <navLabel>
+        <text>Chapter 7: A Job Well Done</text>
+      </navLabel>
+      <content src="Text/ch07.xhtml"/>
+    </navPoint>
+    <navPoint id="num_10" playOrder="10">
+      <navLabel>
+        <text>Chapter 8: The Next Big Score</text>
+      </navLabel>
+      <content src="Text/ch08.xhtml"/>
+    </navPoint>
+    <navPoint id="num_11" playOrder="11">
+      <navLabel>
+        <text>Chapter 9: Paradise</text>
+      </navLabel>
+      <content src="Text/ch09.xhtml"/>
+    </navPoint>
+    <navPoint id="num_12" playOrder="12">
+      <navLabel>
+        <text>Chapter 10: How to Talk to Ponies</text>
+      </navLabel>
+      <content src="Text/ch10.xhtml"/>
+    </navPoint>
+    <navPoint id="num_13" playOrder="13">
+      <navLabel>
+        <text>Chapter 11: Mareford</text>
+      </navLabel>
+      <content src="Text/ch11.xhtml"/>
+    </navPoint>
+    <navPoint id="num_14" playOrder="14">
+      <navLabel>
+        <text>Chapter 12: Covert Methods</text>
+      </navLabel>
+      <content src="Text/ch12.xhtml"/>
+    </navPoint>
+    <navPoint id="num_15" playOrder="15">
+      <navLabel>
+        <text>Chapter 13: Revealed</text>
+      </navLabel>
+      <content src="Text/ch13.xhtml"/>
+    </navPoint>
+    <navPoint id="num_16" playOrder="16">
+      <navLabel>
+        <text>Chapter 14: Past and Future</text>
+      </navLabel>
+      <content src="Text/ch14.xhtml"/>
+    </navPoint>
+    <navPoint id="num_17" playOrder="17">
+      <navLabel>
+        <text>Chapter 15: The Pale</text>
+      </navLabel>
+      <content src="Text/ch15.xhtml"/>
+    </navPoint>
+    <navPoint id="num_18" playOrder="18">
+      <navLabel>
+        <text>Chapter 16: Homecoming</text>
+      </navLabel>
+      <content src="Text/ch16.xhtml"/>
+    </navPoint>
+    <navPoint id="num_19" playOrder="19">
+      <navLabel>
+        <text>Chapter 17: Goodbye</text>
+      </navLabel>
+      <content src="Text/ch17.xhtml"/>
+    </navPoint>
+    <navPoint id="num_20" playOrder="20">
+      <navLabel>
+        <text>Chapter 18: Unloading</text>
+      </navLabel>
+      <content src="Text/ch18.xhtml"/>
+    </navPoint>
+    <navPoint id="num_21" playOrder="21">
+      <navLabel>
+        <text>Chapter 19: Just Relax</text>
+      </navLabel>
+      <content src="Text/ch19.xhtml"/>
+    </navPoint>
+    <navPoint id="num_22" playOrder="22">
+      <navLabel>
+        <text>Chapter 20: Unarmored</text>
+      </navLabel>
+      <content src="Text/ch20.xhtml"/>
+    </navPoint>
+    <navPoint id="num_23" playOrder="23">
+      <navLabel>
+        <text>Chapter 21: Shadows of the Past</text>
+      </navLabel>
+      <content src="Text/ch21.xhtml"/>
+    </navPoint>
+    <navPoint id="num_24" playOrder="24">
+      <navLabel>
+        <text>Chapter 22: Sanguine</text>
+      </navLabel>
+      <content src="Text/ch22.xhtml"/>
+    </navPoint>
+    <navPoint id="num_25" playOrder="25">
+      <navLabel>
+        <text>Chapter 23: Rage and Retribution</text>
+      </navLabel>
+      <content src="Text/ch23.xhtml"/>
+    </navPoint>
+    <navPoint id="num_26" playOrder="26">
+      <navLabel>
+        <text>Chapter 24: Picking up the Pieces</text>
+      </navLabel>
+      <content src="Text/ch24.xhtml"/>
+    </navPoint>
+    <navPoint id="num_27" playOrder="27">
+      <navLabel>
+        <text>Chapter 25: Serenity</text>
+      </navLabel>
+      <content src="Text/ch25.xhtml"/>
+    </navPoint>
+    <navPoint id="num_28" playOrder="28">
+      <navLabel>
+        <text>Chapter 26: One Way Out</text>
+      </navLabel>
+      <content src="Text/ch26.xhtml"/>
+    </navPoint>
+    <navPoint id="num_29" playOrder="29">
+      <navLabel>
+        <text>Chapter 27: The Brief Mercenary Life of Lemon Tart</text>
+      </navLabel>
+      <content src="Text/ch27.xhtml"/>
+    </navPoint>
+    <navPoint id="num_30" playOrder="30">
+      <navLabel>
+        <text>Chapter 28: On the Road</text>
+      </navLabel>
+      <content src="Text/ch28.xhtml"/>
+    </navPoint>
+    <navPoint id="num_31" playOrder="31">
+      <navLabel>
+        <text>Chapter 29: The Sunken City</text>
+      </navLabel>
+      <content src="Text/ch29.xhtml"/>
+    </navPoint>
+    <navPoint id="num_32" playOrder="32">
+      <navLabel>
+        <text>Chapter 30: Exodus</text>
+      </navLabel>
+      <content src="Text/ch30.xhtml"/>
+    </navPoint>
+    <navPoint id="num_33" playOrder="33">
+      <navLabel>
+        <text>Chapter 31: Searching</text>
+      </navLabel>
+      <content src="Text/ch31.xhtml"/>
+    </navPoint>
+    <navPoint id="num_34" playOrder="34">
+      <navLabel>
+        <text>Chapter 32: Echo</text>
+      </navLabel>
+      <content src="Text/ch32.xhtml"/>
+    </navPoint>
+    <navPoint id="num_35" playOrder="35">
+      <navLabel>
+        <text>Chapter 33: The First Below</text>
+      </navLabel>
+      <content src="Text/ch33.xhtml"/>
+    </navPoint>
+    <navPoint id="num_36" playOrder="36">
+      <navLabel>
+        <text>Chapter 34: Family</text>
+      </navLabel>
+      <content src="Text/ch34.xhtml"/>
+    </navPoint>
+    <navPoint id="num_37" playOrder="37">
+      <navLabel>
+        <text>Chapter 35: Prepared for the Future</text>
+      </navLabel>
+      <content src="Text/ch35.xhtml"/>
+    </navPoint>
+    <navPoint id="num_38" playOrder="38">
+      <navLabel>
+        <text>Chapter 36: Trotsen</text>
+      </navLabel>
+      <content src="Text/ch36.xhtml"/>
+    </navPoint>
+    <navPoint id="num_39" playOrder="39">
+      <navLabel>
+        <text>Chapter 37: Casualties</text>
+      </navLabel>
+      <content src="Text/ch37.xhtml"/>
+    </navPoint>
+    <navPoint id="num_40" playOrder="40">
+      <navLabel>
+        <text>Chapter 38: Damage</text>
+      </navLabel>
+      <content src="Text/ch38.xhtml"/>
+    </navPoint>
+    <navPoint id="num_41" playOrder="41">
+      <navLabel>
+        <text>Chapter 39: Race to Armageddon</text>
+      </navLabel>
+      <content src="Text/ch39.xhtml"/>
+    </navPoint>
+    <navPoint id="num_42" playOrder="42">
+      <navLabel>
+        <text>Chapter 40: Analysis</text>
+      </navLabel>
+      <content src="Text/ch40.xhtml"/>
+    </navPoint>
+    <navPoint id="num_43" playOrder="43">
+      <navLabel>
+        <text>Chapter 41: The Gauntlet</text>
+      </navLabel>
+      <content src="Text/ch41.xhtml"/>
+    </navPoint>
+    <navPoint id="num_44" playOrder="44">
+      <navLabel>
+        <text>Chapter 42: A Thousand Lies</text>
+      </navLabel>
+      <content src="Text/ch42.xhtml"/>
+    </navPoint>
+    <navPoint id="num_45" playOrder="45">
+      <navLabel>
+        <text>Chapter 43: Close Quarters</text>
+      </navLabel>
+      <content src="Text/ch43.xhtml"/>
+    </navPoint>
+    <navPoint id="num_46" playOrder="46">
+      <navLabel>
+        <text>Chapter 44: Push</text>
+      </navLabel>
+      <content src="Text/ch44.xhtml"/>
+    </navPoint>
+    <navPoint id="num_47" playOrder="47">
+      <navLabel>
+        <text>Chapter 45: The Rot</text>
+      </navLabel>
+      <content src="Text/ch45.xhtml"/>
+    </navPoint>
+    <navPoint id="num_48" playOrder="48">
+      <navLabel>
+        <text>Chapter 46: From The Shadows</text>
+      </navLabel>
+      <content src="Text/ch46.xhtml"/>
+    </navPoint>
+    <navPoint id="num_49" playOrder="49">
+      <navLabel>
+        <text>Chapter 47: In from the Cold</text>
+      </navLabel>
+      <content src="Text/ch47.xhtml"/>
+    </navPoint>
+    <navPoint id="num_50" playOrder="50">
+      <navLabel>
+        <text>Chapter 48: The Infiltrator Queen</text>
+      </navLabel>
+      <content src="Text/ch48.xhtml"/>
+    </navPoint>
+    <navPoint id="num_51" playOrder="51">
+      <navLabel>
+        <text>Chapter 49: Endgame</text>
+      </navLabel>
+      <content src="Text/ch49.xhtml"/>
+    </navPoint>
+    <navPoint id="num_52" playOrder="52">
+      <navLabel>
+        <text>Epilogue</text>
+      </navLabel>
+      <content src="Text/epilogue.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>
