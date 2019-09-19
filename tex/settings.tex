@@ -1,0 +1,114 @@
+% !TeX program = LuaLaTeX
+% !TeX encoding = UTF-8
+\documentclass[draft]{novel}
+
+%Packages
+\usepackage[american]{selnolig}
+\usepackage[draft=false,parindent,lastparline,nosingleletter,homeoarchy,rivers]{impnattypo}
+\usepackage{fmtcount}
+\usepackage{ifthen}
+\usepackage{fancyvrb}
+
+%Error filtering
+\raggedbottom
+
+%Size											%This shit here
+\SetTrimSize{148mm}{210mm}
+% top, outside, bottom, inside
+%\SetMargins{7mm}{16mm}{16.9mm}{20.5mm}
+%\SetLinesPerPage{35}
+%\SetMargins{23.3mm}{32.9mm}{46.7mm}{16.4mm}
+%\SetLinesPerPage{30}
+\SetMargins{14mm}{18mm}{20mm}{25mm}
+\SetLinesPerPage{35}
+
+%Metadata
+\SetTitle{The Chrysalis}
+\SetAuthor{Phoenix\_Dragon}
+\SetPDFX[FOGRA39]{X-1a:2001}
+
+%Microtype
+\tolerance=400
+\microtypesetup{
+	config=my-microtype,
+	final,
+	babel=true,
+	activate={true, nocompatibility},
+	tracking=true,
+	protrusion=true,
+	factor=1100
+}
+
+%Fonts
+\SetParentFont[
+	Numbers=Lining,
+	Extension=.ttf,
+	ItalicFont=*-Italic,
+	BoldFont=*-Bold,
+	SmallCapsFont=*-SC
+]{EBGaramond}
+\SetMonoFont[
+	Scale=0.8,
+	Extension=.ttf,
+	ItalicFont=*-Italic,
+	BoldFont=*-SemiBold
+]{IBMPlexMono}
+\newfontfamily\symbolfont{Code2000.ttf}
+\SetFontSize{11.4pt}
+
+%Chapter
+\SetChapterFont[Scale=1.8]{IBMPlexMono}
+\SetSubchFont{IBMPlexMono}
+\SetChapterStartStyle{empty}
+\SetChapterStartHeight{4}
+
+%Header
+\SetHeadFont[Scale=0.88,Letters=SmallCaps]{EBGaramond}
+\SetHeadFootStyle{1}
+\SetHeadJump{1.5}
+
+%Macros
+%Chapter start
+\newcommand{\chapterstart}[2][]{
+	\cleartorecto
+	\SetVersoHeadText{#2}
+	\begin{ChapterStart}
+	\ifthenelse{\equal{#1}{}}{}{
+		\ChapterSubtitle{Chapter \Numberstringnum{#1}}
+		\label{ch:#1}
+	}
+	\ChapterTitle{#2}
+	\end{ChapterStart}
+}
+
+%Scene break
+\newcommand{\br}{
+	\vspace*{0.5\baselineskip}
+	\nopagebreak
+	\center
+	{\symbolfont\rule[0.3\nbs]{3em}{0.1pt}\hspace{1em}☢\hspace{1em}\rule[0.3\nbs]{3em}{0.1pt}}
+	\nopagebreak
+	\vspace*{0.5\baselineskip}
+	\par
+	\noindent
+}
+
+%Terminal formatting
+\newcommand{\terminal}[2][]{
+	\rule{\textwidth-\parindent}{0.1pt}\par
+	{\leftskip=2\parindent\relax \rightskip=0pt plus 1fill\relax
+	\setlength{\parindent}{0pt}
+	\ifthenelse{\equal{#1}{doc}}{
+		\setlength{\parskip}{\baselineskip}
+		\vspace{-\baselineskip}
+	}{}
+	\ttfamily #2\par}
+	\rule[0.6\baselineskip]{\textwidth-\parindent}{0.1pt}\par
+}
+
+%Switches to DejaVu Sans Mono for drawing characters
+\newfontfamily\DejaVuMono{Dejavu Sans Mono}
+\newcommand{\drawfont}[1]{%
+	{\DejaVuMono%
+	#1}%
+}

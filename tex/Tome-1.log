@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.2)  16 JUL 2019 00:34
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Arch Linux)  (format=lualatex 2019.7.17)  1 AUG 2019 13:09
  restricted system commands enabled.
 **Tome-1.tex
 (./Tome-1.tex
@@ -48,8 +48,8 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.073 seconds
-(/usr/share/texmf-dist/tex/lualatex/novel/novel.cls
+luaotfload | main : initialization completed in 0.079 seconds
+(./settings.tex (/usr/share/texmf-dist/tex/lualatex/novel/novel.cls
 Document Class: novel 2018/04/26 v1.52 LaTeX document class
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
@@ -1365,6 +1365,7 @@ lig;"
 ;+tlig;"
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
+)
 
 Package lualatex-math Info: I'm going to patch macro \frac.
 
@@ -1397,7 +1398,7 @@ e=DFLT;+tlig;+kern;+liga;+lnum;"
 (fontspec)             <->"[EBGaramond-SC.ttf]:mode=base;script=latn;language=DF
 LT;+tlig;+kern;+liga;+lnum;"
 
-LaTeX Info: Redefining \rmfamily on input line 117.
+LaTeX Info: Redefining \rmfamily on input line 5.
 
 Package fontspec Info: Font family 'EBGaramond(1)' created for font
 (fontspec)             'EBGaramond' with options
@@ -1429,13 +1430,11 @@ LT;+tlig;+lnum;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/libertinusmath-regular.otf(1)/m/n --> TU/EBGaramond(1
-)/m/n on input line 117.
+)/m/n on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/EBGaramond(1)/m/it on input line 117
-.
+(Font)                  OT1/cmr/m/it --> TU/EBGaramond(1)/m/it on input line 5.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(1)/bx/n on input line 117
-.
+(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(1)/bx/n on input line 5.
 
 Package fontspec Info: Font family 'EBGaramond(2)' created for font
 (fontspec)             'EBGaramond' with options
@@ -1680,7 +1679,7 @@ lig;+kern;+onum;+liga;+smcp;"
 (fontspec)             <->"LibertinusSans/BI:mode=base;script=latn;language=DFLT
 ;+tlig;+kern;+onum;+liga;+smcp;"
 
-LaTeX Info: Redefining \sffamily on input line 117.
+LaTeX Info: Redefining \sffamily on input line 5.
 
 Package fontspec Info: Font family 'LibertinusSans(1)' created for font
 (fontspec)             'Libertinus Sans' with options
@@ -1717,10 +1716,10 @@ lig;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LibertinusSans(1)/m/n on input line 
-117.
+5.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LibertinusSans(1)/bx/n on input lin
-e 117.
+e 5.
 
 Package fontspec Info: Font family 'NovelDeco(0)' created for font 'NovelDeco'
 (fontspec)             with options
@@ -1960,26 +1959,26 @@ Package hyperref Info: Option `unicode' set `true' on input line 396.
 ) (./Tome-1.aux)
 \openout1 = Tome-1.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 \AtBeginShipoutBox=\box63
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -2064,7 +2063,7 @@ LT;+tlig;+kern;+liga;+lnum;+smcp;"
 Class `novel' Alert: No PDF/X in draft mode. 
 Your document was processed with \SetPDFX{off}. 
 
-LaTeX Info: Redefining \microtypecontext on input line 117.
+LaTeX Info: Redefining \microtypecontext on input line 5.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1100.
@@ -2081,7 +2080,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `EBGaramond' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 117.
+Package hyperref Info: Link coloring OFF on input line 5.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2090,9 +2089,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count339
 )
-LaTeX Info: Redefining \ref on input line 117.
-LaTeX Info: Redefining \pageref on input line 117.
-LaTeX Info: Redefining \nameref on input line 117.
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
@@ -2157,7 +2156,7 @@ lig;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-LaTeX Info: Redefining \ttfamily on input line 137.
+LaTeX Info: Redefining \ttfamily on input line 25.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `IBMPlexMono' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2167,7 +2166,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(0)/m/n' will be
-(Font)              scaled to size 9.12003pt on input line 154.
+(Font)              scaled to size 9.12003pt on input line 42.
  [3
 
 ] [4
@@ -2178,7 +2177,7 @@ LaTeX Font Info:    Font shape `TU/IBMPlexMono(0)/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(2)/m/n' will be
-(Font)              scaled to size 20.52002pt on input line 228.
+(Font)              scaled to size 20.52002pt on input line 116.
 
 (./chapters/ch01.tex
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2672,28 +2671,28 @@ rs and wings drooped|
 ] [518
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./Tome-1.aux
 
 Class novel Warning: Line after parascale may be off-grid, page iii. 
 Appears to be 0.091\nbs higher than expected. on input line 24.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 291.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 179.
 )
 
 Here is how much of LuaTeX's memory you used:
- 47317 strings out of 494300
+ 47325 strings out of 494300
  100000,1373583 words of node,token memory allocated
  578 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 76 glue_spec,
  8 attribute_list, 2 write, 1 user_defined nodes
    avail lists: 1:2,2:375,3:87,4:39,5:288,6:33,7:3238,9:140,10:14,11:200
  43227 multiletter control sequences out of 65536+600000
- 135 fonts using 63340295 bytes
- 72i,13n,115p,1061b,2042s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 135 fonts using 63340151 bytes
+ 74i,13n,115p,1061b,2042s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./IBMPlexMono-Italic.ttf><./IBMPlexMono-SemiBold.ttf></usr/share/texmf-dist/fon
 ts/opentype/public/ebgaramond/EBGaramond-Regular.otf><./Code2000.ttf><./EBGaramo
 nd-Italic.ttf><./EBGaramond.ttf><./IBMPlexMono.ttf></usr/local/share/fonts/i/IBM
