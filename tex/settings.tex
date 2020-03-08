@@ -1,6 +1,6 @@
 % !TeX program = LuaLaTeX
 % !TeX encoding = UTF-8
-\documentclass[draft]{novel}
+\documentclass{novel}
 
 %Packages
 \usepackage[american]{selnolig}
@@ -12,23 +12,16 @@
 %Error filtering
 \raggedbottom
 
-%Size											%This shit here
-\SetTrimSize{148mm}{210mm}
-% top, outside, bottom, inside
-%\SetMargins{7mm}{16mm}{16.9mm}{20.5mm}
-%\SetLinesPerPage{35}
-%\SetMargins{23.3mm}{32.9mm}{46.7mm}{16.4mm}
-%\SetLinesPerPage{30}
-\SetMargins{14mm}{18mm}{20mm}{25mm}
-\SetLinesPerPage{35}
-
 %Metadata
 \SetTitle{The Chrysalis}
 \SetAuthor{Phoenix\_Dragon}
 \SetPDFX[FOGRA39]{X-1a:2001}
 
 %Microtype
-\tolerance=400
+\pretolerance=200
+\tolerance=700
+\setlength{\emergencystretch}{1em}
+\hbadness=5000
 \microtypesetup{
 	config=my-microtype,
 	final,
@@ -38,6 +31,10 @@
 	protrusion=true,
 	factor=1100
 }
+
+%Break on em dashes
+\catcode`—=13
+\protected\def—{\allowbreak\textemdash\allowbreak}
 
 %Fonts
 \SetParentFont[
@@ -70,7 +67,7 @@
 %Macros
 %Chapter start
 \newcommand{\chapterstart}[2][]{
-	\cleartorecto
+	\newpage
 	\SetVersoHeadText{#2}
 	\begin{ChapterStart}
 	\ifthenelse{\equal{#1}{}}{}{
@@ -78,6 +75,11 @@
 		\label{ch:#1}
 	}
 	\ChapterTitle{#2}
+	%Literally just for that one long chapter name
+	\ifthenelse{\equal{#1}{27}}{
+		\ChapterTitle{of Lemon Tart}
+		\SetVersoHeadText{The Brief Mercenary Life of Lemon Tart}
+	}{}
 	\end{ChapterStart}
 }
 

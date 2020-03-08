@@ -2,6 +2,10 @@
 
 .epub and .tex version of Fallout: Equestria - The Chrysalis
 
-epub2tex.sh creates the chapter .tex files from the .xhtml files from the epub
+epub2chysalis.sh creates the chapter .tex files from the .xhtml files from the epub
 
-Compile with lualatex
+Compile with lualatex, uses the novel library
+
+```bash
+latexmk -pdf -lualatex chrysalis.tex
+```

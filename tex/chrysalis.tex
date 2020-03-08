@@ -1,0 +1,325 @@
+%Input settings page
+\input{./settings}
+
+%The cover is a good image
+\SetKnownGoodImages{cover.png}
+
+%Size
+\SetTrimSize{148mm}{210mm}
+\SetMargins{14mm}{18mm}{20mm}{18mm}
+\SetLinesPerPage{35}
+
+%This is where the fun begins
+\begin{document}
+\frontmatter
+
+%Cover
+\thispagestyle{empty}
+\FloatImage[,,24mm]{cover.png}
+
+%Title page
+\newpage
+\thispagestyle{empty}
+\begin{center}
+\def\embolden#1{%
+	\pdfextension literal direct {2 Tr 1.2 w}%
+	#1%
+	\pdfextension literal direct {0 Tr 0 w}%
+}
+\null\vspace{2\baselineskip}
+\begin{parascale}[0.8]
+\setmonofont{IBMPlexMono}
+\begin{BVerbatim}[baseline=t,commandchars=\&\{\}]
+&drawfont{┏━━━━━━━━━━━━━━━}FALLOUT EQUESTRIA&drawfont{&kern0.035em━━━━━━━━━━━━━━━┓}
+&drawfont{┃&embolden{                ________                       }┃}
+&drawfont{┃&embolden{               /_  __/ /_  ___                 }┃}
+&drawfont{┃&embolden{                / / / __ \/ _ \                }┃}
+&drawfont{┃&embolden{               / / / / / /  __/                }┃}
+&drawfont{┃&embolden{    ________  /_/ /_/ /_/\___/        ___      }┃}
+&drawfont{┃&embolden{   / ____/ /_  _______  ___________ _/ (_)____ }┃}
+&drawfont{┃&embolden{  / /   / __ \/ ___/ / / / ___/ __ `/ / / ___/ }┃}
+&drawfont{┃&embolden{ / /___/ / / / /  / /_/ (__  ) /_/ / / (__  )  }┃}
+&drawfont{┃&embolden{ \____/_/ /_/_/   \__, /____/\__,_/_/_/____/   }┃}
+&drawfont{┃&embolden{                 /____/                        }┃}
+&drawfont{┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━&kern0.01em}PHOENIX_DRAGON&drawfont{&kern0.02em━━━━━┛}
+\end{BVerbatim}
+\end{parascale}
+\vspace{0.091\nbs}
+\vspace{12\baselineskip}
+\begin{BVerbatim}[baseline=t]
+************** PIP-OS(R) V7.1.0.8 **************
+
+COPYRIGHT ROBRONCO(R)
+LOADER V1.1
+EXEC VERSION 41.10
+64K RAM SYSTEM
+38911 BYTES FREE
+HOLOTAPE FOUND
+LOAD ROM: 'THE CHRYSALIS'
+READY.
+\end{BVerbatim}
+\end{center}
+
+%Copyright page
+\clearpage
+\thispagestyle{empty}
+\null\vspace{2\baselineskip}
+\begin{adjustwidth}{4em}{4em}
+\begin{center}
+\begin{parascale}[0.9]
+\noindent
+This is a work of fiction. Names, places, and incidents either are the product of the author’s imagination or are used fictitiously. Any resemblance to actual humans or ponies, living or dead, events, or locales is entirely coincidental.\\
+\vspace{\baselineskip}
+\noindent
+Text and original characters © Phoenix\_Dragon\\
+“Fallout Equestria” © Kkat\\
+The Fallout franchise © Bethesda Softworks, LLC\\
+“My Little Pony: Friendship is Magic” © Hasbro, Inc.\\
+\vspace{\baselineskip}
+\noindent
+This work references characters and locations that are copyright and trademarks of Hasbro, Inc. No claim is made on Hasbro’s copyright or trademarks.\\
+\vspace{13\baselineskip}
+\noindent
+Typeset in Australia\\
+Feb 2020\\
+First Edition\\
+\vspace{\baselineskip}
+\noindent
+\textit{Produced by Keystroke Cascade}
+\end{parascale}
+\end{center}
+\end{adjustwidth}
+
+%Table of Contents
+\newpage
+\thispagestyle{empty}
+\null\vspace{2\baselineskip}
+\begin{toc}[0.2]{3em}
+{\centering\charscale[1.5]{Contents}\par}
+\null\null
+Chapter \tocitem*[1]{\textit{Ash and Dust}}{\pageref{ch:1}}
+Chapter \tocitem*[2]{\textit{Ways of the Wasteland}}{\pageref{ch:2}}
+Chapter \tocitem*[3]{\textit{Downpour}}{\pageref{ch:3}}
+Chapter \tocitem*[4]{\textit{Rust}}{\pageref{ch:4}}
+Chapter \tocitem*[5]{\textit{Friendly Faces}}{\pageref{ch:5}}
+Chapter \tocitem*[6]{\textit{Carrion}}{\pageref{ch:6}}
+Chapter \tocitem*[7]{\textit{A Job Well Done}}{\pageref{ch:7}}
+Chapter \tocitem*[8]{\textit{The Next Big Score}}{\pageref{ch:8}}
+Chapter \tocitem*[9]{\textit{Paradise}}{\pageref{ch:9}}
+Chapter \tocitem*[10]{\textit{How to Talk to Ponies}}{\pageref{ch:10}}
+Chapter \tocitem*[11]{\textit{Mareford}}{\pageref{ch:11}}
+Chapter \tocitem*[12]{\textit{Covert Methods}}{\pageref{ch:12}}
+Chapter \tocitem*[13]{\textit{Revealed}}{\pageref{ch:13}}
+Chapter \tocitem*[14]{\textit{Past and Future}}{\pageref{ch:14}}
+Chapter \tocitem*[15]{\textit{The Pale}}{\pageref{ch:15}}
+Chapter \tocitem*[16]{\textit{Homecoming}}{\pageref{ch:16}}
+Chapter \tocitem*[17]{\textit{Goodbye}}{\pageref{ch:17}}
+Chapter \tocitem*[18]{\textit{Unloading}}{\pageref{ch:18}}
+Chapter \tocitem*[19]{\textit{Just Relax}}{\pageref{ch:19}}
+Chapter \tocitem*[20]{\textit{Unarmored}}{\pageref{ch:20}}
+Chapter \tocitem*[21]{\textit{Shadows of the Past}}{\pageref{ch:21}}
+Chapter \tocitem*[22]{\textit{Sanguine}}{\pageref{ch:22}}
+Chapter \tocitem*[23]{\textit{Rage and Retribution}}{\pageref{ch:23}}
+Chapter \tocitem*[24]{\textit{Picking up the Pieces}}{\pageref{ch:24}}
+\newpage
+\thispagestyle{empty}
+\null\vspace{2\baselineskip}
+Chapter \tocitem*[25]{\textit{Serenity}}{\pageref{ch:25}}
+Chapter \tocitem*[26]{\textit{One Way Out}}{\pageref{ch:26}}
+Chapter \tocitem*[27]{\textit{The Brief Mercenary Life of Lemon Tart}}{\pageref{ch:27}}
+Chapter \tocitem*[28]{\textit{On the Road}}{\pageref{ch:28}}
+Chapter \tocitem*[29]{\textit{The Sunken City}}{\pageref{ch:29}}
+Chapter \tocitem*[30]{\textit{Exodus}}{\pageref{ch:30}}
+Chapter \tocitem*[31]{\textit{Searching}}{\pageref{ch:31}}
+Chapter \tocitem*[32]{\textit{Echo}}{\pageref{ch:32}}
+Chapter \tocitem*[33]{\textit{The First Blow}}{\pageref{ch:33}}
+Chapter \tocitem*[34]{\textit{Family}}{\pageref{ch:34}}
+Chapter \tocitem*[35]{\textit{Prepared for the Future}}{\pageref{ch:35}}
+Chapter \tocitem*[36]{\textit{Trotsen}}{\pageref{ch:36}}
+Chapter \tocitem*[37]{\textit{Casualties}}{\pageref{ch:37}}
+Chapter \tocitem*[38]{\textit{Damage}}{\pageref{ch:38}}
+Chapter \tocitem*[39]{\textit{Race to Armageddon}}{\pageref{ch:39}}
+Chapter \tocitem*[40]{\textit{Analysis}}{\pageref{ch:40}}
+Chapter \tocitem*[41]{\textit{The Gauntlet}}{\pageref{ch:41}}
+Chapter \tocitem*[42]{\textit{A Thousand Lies}}{\pageref{ch:42}}
+Chapter \tocitem*[43]{\textit{Close Quarters}}{\pageref{ch:43}}
+Chapter \tocitem*[44]{\textit{Push}}{\pageref{ch:44}}
+Chapter \tocitem*[45]{\textit{The Rot}}{\pageref{ch:45}}
+Chapter \tocitem*[46]{\textit{From the Shadows}}{\pageref{ch:46}}
+Chapter \tocitem*[47]{\textit{In from the Cold}}{\pageref{ch:47}}
+Chapter \tocitem*[48]{\textit{The Infiltrator Queen}}{\pageref{ch:48}}
+Chapter \tocitem*[49]{\textit{Endgame}}{\pageref{ch:49}}
+\tocitem*{Epilogue}{\pageref{epilogue}}
+\end{toc}
+
+%Mainmatter
+\mainmatter
+
+\chapterstart[1]{Ash and Dust}
+\input{./chapters/ch01}
+
+\chapterstart[2]{Ways of the Wasteland}
+\input{./chapters/ch02}
+
+\chapterstart[3]{Downpour}
+\input{./chapters/ch03}
+
+\chapterstart[4]{Rust}
+\input{./chapters/ch04}
+
+\chapterstart[5]{Friendly Faces}
+\input{./chapters/ch05}
+
+\chapterstart[6]{Carrion}
+\input{./chapters/ch06}
+
+\chapterstart[7]{A Job Well Done}
+\input{./chapters/ch07}
+
+\chapterstart[8]{The Next Big Score}
+\input{./chapters/ch08}
+
+\chapterstart[9]{Paradise}
+\input{./chapters/ch09}
+
+\chapterstart[10]{How to Talk to Ponies}
+\input{./chapters/ch10}
+
+\chapterstart[11]{Mareford}
+\input{./chapters/ch11}
+
+\chapterstart[12]{Covert Methods}
+\input{./chapters/ch12}
+
+\chapterstart[13]{Revealed}
+\input{./chapters/ch13}
+
+\chapterstart[14]{Past and Future}
+\input{./chapters/ch14}
+
+\chapterstart[15]{The Pale}
+\input{./chapters/ch15}
+
+\chapterstart[16]{Homecoming}
+\input{./chapters/ch16}
+
+\chapterstart[17]{Goodbye}
+\input{./chapters/ch17}
+
+\chapterstart[18]{Unloading}
+\input{./chapters/ch18}
+
+\chapterstart[19]{Just Relax}
+\input{./chapters/ch19}
+
+\chapterstart[20]{Unarmored}
+\input{./chapters/ch20}
+
+\chapterstart[21]{Shadows of the Past}
+\input{./chapters/ch21}
+
+\chapterstart[22]{Sanguine}
+\input{./chapters/ch22}
+
+\chapterstart[23]{Rage and Retribution}
+\input{./chapters/ch23}
+
+\chapterstart[24]{Picking up the Pieces}
+\input{./chapters/ch24}
+
+\chapterstart[25]{Serenity}
+\input{./chapters/ch25}
+
+\chapterstart[26]{One Way Out}
+\input{./chapters/ch26}
+
+\chapterstart[27]{The Brief Mercenary Life}
+\vspace{1.5\baselineskip}
+\input{./chapters/ch27}
+
+\chapterstart[28]{On the Road}
+\input{./chapters/ch28}
+
+\chapterstart[29]{The Sunken City}
+\input{./chapters/ch29}
+
+\chapterstart[30]{Exodus}
+\input{./chapters/ch30}
+
+\chapterstart[31]{Searching}
+\input{./chapters/ch31}
+
+\chapterstart[32]{Echo}
+\input{./chapters/ch32}
+
+\chapterstart[33]{The First Blow}
+\input{./chapters/ch33}
+
+\chapterstart[34]{Family}
+\input{./chapters/ch34}
+
+\chapterstart[35]{Prepared for the Future}
+\input{./chapters/ch35}
+
+\chapterstart[36]{Trotsen}
+\input{./chapters/ch36}
+
+\chapterstart[37]{Casualties}
+\input{./chapters/ch37}
+
+\chapterstart[38]{Damage}
+\input{./chapters/ch38}
+
+\chapterstart[39]{Race to Armageddon}
+\input{./chapters/ch39}
+
+\chapterstart[40]{Analysis}
+\input{./chapters/ch40}
+
+\chapterstart[41]{The Gauntlet}
+\input{./chapters/ch41}
+
+\chapterstart[42]{A Thousand Lies}
+\input{./chapters/ch42}
+
+\chapterstart[43]{Close Quarters}
+\input{./chapters/ch43}
+
+\chapterstart[44]{Push}
+\input{./chapters/ch44}
+
+\chapterstart[45]{The Rot}
+\input{./chapters/ch45}
+
+\chapterstart[46]{From the Shadows}
+\input{./chapters/ch46}
+
+\chapterstart[47]{In from the Cold}
+\input{./chapters/ch47}
+
+\chapterstart[48]{The Infiltrator Queen}
+\input{./chapters/ch48}
+
+\chapterstart[49]{Endgame}
+\input{./chapters/ch49}
+
+\chapterstart{Epilogue}
+\label{epilogue}
+\input{./chapters/epilogue}
+
+
+%End
+\newpage
+\thispagestyle{empty}
+\null\vspace{26\baselineskip}
+\begin{center}
+\begin{BVerbatim}[baseline=t,commandchars=\\\{\}]
+\textbf{------------------------------------------------}
+
+ROM LOADED
+^C
+INTERRUPT SIGNAL RECEIVED
+LOGOFF...
+\end{BVerbatim}
+\end{center}
+\end{document}
