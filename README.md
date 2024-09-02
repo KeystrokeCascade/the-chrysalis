@@ -11,9 +11,13 @@ And this lone changeling must head out into that loveless land, seeking a hive t
 
 ---
 
-epub2chysalis.sh creates the chapter .tex files from the .xhtml files from the epub.
+To generate the LaTeX chapters from the xhtml chapters.
 
-Compile with lualatex, uses the novel library.
+```bash
+./epub2chysalis.sh
+```
+
+Compiles with LuaLaTeX using the novel library.
 
 ```bash
 latexmk -pdf -lualatex chrysalis.tex
